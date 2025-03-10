@@ -1,0 +1,26 @@
+{
+  "name": "bugbank",
+  "version": "1.0.0",
+  "description": "Este repositório contém testes automatizados usando o Cypress para validar a funcionalidade de Cadastro, Login, Saque e Transferência de uma aplicação WEB. Certifique-se de seguir as instruções de configuração e execução dos testes para garantir a qualidade do software.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "recordTestDashCypress": "npx cypress run --record --key d4d95635-fffd-4737-8a9c-0e0cc0e141dd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgemonteirojunior/teste_casas_bahia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgemonteirojunior/teste_casas_bahia/issues"
+  },
+  "homepage": "https://github.com/jorgemonteirojunior/teste_casas_bahiaf#readme",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "faker-br": "^0.4.1"
+  }
+}
+
